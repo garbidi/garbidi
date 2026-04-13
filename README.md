@@ -20,7 +20,7 @@ Python-разработчик из Казани 🐍 | Изучаю ML и веб
 у
 
 📊 GitHub Stats
-<p align="left"> <img src="https://github-readme-stats.vercel.app/api?username=garbidi&show_icons=true&count_private=true&theme=default&hide_rank=false" height="165" alt="GitHub Stats"/> <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=garbidi&layout=compact&langs_count=6" height="165" alt="Top Languages"/> </p>
+<p align="left"> <img src="https://github-readme-stats.shion.dev/api?username=YOUR_USERNAME=garbidi&show_icons=true&count_private=true&theme=default&hide_rank=false" height="165" alt="GitHub Stats"/> <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=garbidi&layout=compact&langs_count=6" height="165" alt="Top Languages"/> </p>
 🔥 Streak (полоса коммитов)
 <p align="left"> <img src="https://github-readme-streak-stats.herokuapp.com/?user=garbidi&theme=default" alt="GitHub Streak"/> </p>
 🛠️ Технологии

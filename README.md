@@ -4,7 +4,7 @@
 
 📍 Казань, Россия
 
-Делаю системы, которые снимают с людей рутину: агенты собирают данные из чужих
+Коммерческий опыт. Делаю системы, которые снимают с людей рутину: агенты собирают данные из чужих
 API, считают и отдают результат в том виде, в каком его реально используют —
 дашборд, таблица, сообщение в мессенджере.
 
@@ -28,6 +28,13 @@ RAG-инфраструктуру. Фильтрует шум, оценивает 
 раз в неделю публикует дайджест через GitHub Actions. 37 тестов, ADR, документация.
 `Python · GitHub API · pytest · ruff · GitHub Actions`
 
+**[lombard-erp](https://github.com/garbidi/lombard-erp)** — ERP для сети
+ломбардов на 20 филиалов, заменяет legacy-систему на Delphi/Firebird.
+Клиент-серверная архитектура: ASP.NET Core 8 Web API и WPF-клиент с общими
+доменными сущностями и DTO-контрактами. JWT с refresh-токенами, аудит изменений
+через `SaveChangesInterceptor`, миграции EF Core.
+`C# · .NET 8 · ASP.NET Core · WPF · PostgreSQL · EF Core`
+
 **[ISTSys](https://github.com/garbidi/ISTSys)** — десктоп-приложение для
 методистов: разбирает Word-документы с компетенциями, валидирует их и собирает
 сводные отчёты в Word и Excel. Часы ручной работы → несколько кликов.
@@ -46,8 +53,10 @@ Sheets, подтверждение с эскалацией, watchdog для ус
 
 ### Стек
 
-`Python` `FastAPI` `aiogram` `Flask` `PyQt5` `asyncio` `pytest` `ruff`
-`SQLite` `MongoDB` `Google Sheets API` `REST API` `GitHub Actions`
+**Python:** `FastAPI` `aiogram` `Flask` `PyQt5` `asyncio` `pytest` `ruff`
+**C# / .NET:** `ASP.NET Core 8` `WPF` `Entity Framework Core` `JWT`
+**Данные и интеграции:** `PostgreSQL` `SQLite` `MongoDB` `Google Sheets API` `REST API`
+**Инфраструктура:** `Docker` `GitHub Actions` `Git`
 
 ### Связаться
 

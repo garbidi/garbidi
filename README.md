@@ -1,4 +1,8 @@
-## Python-разработчик · AI-инструменты и автоматизация
+## Искандар Гафаров
+
+### Python-разработчик · AI-инструменты и автоматизация
+
+📍 Казань, Россия
 
 Делаю системы, которые снимают с людей рутину: агенты собирают данные из чужих
 API, считают и отдают результат в том виде, в каком его реально используют —
@@ -47,4 +51,5 @@ Sheets, подтверждение с эскалацией, watchdog для ус
 
 ### Связаться
 
-[![email](https://img.shields.io/badge/email-akevropy%40gmail.com-informational)](mailto:akevropy@gmail.com)
+[![telegram](https://img.shields.io/badge/Telegram-%40Mr__svavarsson-2CA5E0?logo=telegram&logoColor=white)](https://t.me/Mr_svavarsson)
+[![email](https://img.shields.io/badge/email-akevropy%40gmail.com-informational?logo=gmail&logoColor=white)](mailto:akevropy@gmail.com)

@@ -4,8 +4,8 @@
 
 📍 Казань, Россия
 
-Коммерческий опыт. Делаю системы, которые снимают с людей рутину: агенты собирают данные из чужих
-API, считают и отдают результат в том виде, в каком его реально используют —
+Коммерческий опыт. Делаю системы, которые снимают с людей рутину: агенты
+собирают данные из чужих API, считают и отдают результат в том виде, в каком его реально используют —
 дашборд, таблица, сообщение в мессенджере.
 
 Работаю с AI-инструментами разработки как с частью процесса: архитектурные
@@ -53,10 +53,13 @@ Sheets, подтверждение с эскалацией, watchdog для ус
 
 ### Стек
 
-**Python:** `FastAPI` `aiogram` `Flask` `PyQt5` `asyncio` `pytest` `ruff`
-**C# / .NET:** `ASP.NET Core 8` `WPF` `Entity Framework Core` `JWT`
-**Данные и интеграции:** `PostgreSQL` `SQLite` `MongoDB` `Google Sheets API` `REST API`
-**Инфраструктура:** `Docker` `GitHub Actions` `Git`
+**Python** — `FastAPI` `aiogram` `Flask` `PyQt5` `asyncio` `pytest` `ruff`
+
+**C# / .NET** — `ASP.NET Core 8` `WPF` `Entity Framework Core` `JWT`
+
+**Данные и интеграции** — `PostgreSQL` `SQLite` `MongoDB` `Google Sheets API` `REST API`
+
+**Инфраструктура** — `Docker` `GitHub Actions` `Git`
 
 ### Связаться
 

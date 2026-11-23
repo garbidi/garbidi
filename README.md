@@ -14,13 +14,46 @@
 
 ### Проекты
 
+**[community-platform](https://github.com/garbidi/community-platform)** —
+рабочая платформа бизнес-сообщества (потоки по 100+ участников): роли с
+доступом на уровне данных, разборы созвонов (распознавание речи → выжимка
+Claude → цели участника), финансы из Telegram-чата, автоматические посты
+об оплатах, AI-помощник организаторов в Telegram с голосом.
+`Python · FastAPI · SQLite FTS5 · Telethon · Claude API · faster-whisper · Docker`
+
+**[kompas-finance](https://github.com/garbidi/kompas-finance)** — сервис
+управленческого учёта: выписки из банка по API и в формате 1С, правила
+автоматической разноски, ДДС и ОПиУ, миграция 17,6 тыс. операций из
+прежнего SaaS. 157 тестов на PGlite, 16 e2e-сценариев.
+`TypeScript · Next.js 16 · PostgreSQL · Drizzle · Better Auth · Playwright`
+
 **[marketplace-pnl-agent](https://github.com/garbidi/marketplace-pnl-agent)** —
-агент ежедневного P&L для продавца на маркетплейсах. Собирает данные из 8
-внешних источников (Ozon Seller и Performance, Wildberries РФ и КЗ, Яндекс
-Директ и Кит, RetailCRM, курсы ЦБ), считает прибыль по дням и месяцам, отдаёт
-дашборд на FastAPI и зеркалит результат в Google Sheets. Заменил ручную сборку
-отчёта в таблицах.
+агент ежедневного P&L для продавца на маркетплейсах: Ozon, Wildberries РФ и КЗ,
+Яндекс Маркет, Магнит, Директ, RetailCRM. Прибыль по дням, товарная
+аналитика «SKU × день», планировщик поставок, сторожа данных. В продакшене
+с июня 2026, 418 коммитов.
 `Python · FastAPI · APScheduler · Google Sheets API · SQLite · 1С`
+
+**[meeting-recorder](https://github.com/garbidi/meeting-recorder)** — бот,
+который сам заходит в Zoom / Meet / Телемост, пишет встречу и отдаёт
+расшифровку с именами говорящих и выжимку.
+`Python · Playwright · GigaAM · faster-whisper · sherpa-onnx · Claude`
+
+**[floorplan-3d](https://github.com/garbidi/floorplan-3d)** — конвейер
+фотореалистичных 3D-видов квартир по планировкам: Gemini через CDP, свой
+рендер на three.js, Blender + AI-проход, автоматическая проверка по плану
+(wall IoU) и AI-приёмщик.
+`Python · OpenCV · three.js · Blender · Gemini 3 Pro Image`
+
+**[community-kb](https://github.com/garbidi/community-kb)** — база знаний из
+Telegram-чатов: 28 тыс. сообщений, 21,7 часа голосовых в тексте,
+поведенческие профили участников; однокнопочный сборщик под Windows и macOS.
+`Python · Telethon · faster-whisper · SQLite · PyInstaller`
+
+**[homework-reviewer](https://github.com/garbidi/homework-reviewer)** —
+AI-проверка домашних работ на GetCourse: забирает работы с вложениями и
+ссылками, Claude пишет ответ, куратор правит и отправляет.
+`Python · FastAPI · Playwright · Claude`
 
 **[github-radar](https://github.com/garbidi/github-radar)** — сканер GitHub,
 который ищет и ранжирует AI-инструменты, агентные фреймворки и
@@ -53,13 +86,17 @@ Sheets, подтверждение с эскалацией, watchdog для ус
 
 ### Стек
 
-**Python** — `FastAPI` `aiogram` `Flask` `PyQt5` `asyncio` `pytest` `ruff`
+**Python** — `FastAPI` `aiogram` `Telethon` `Playwright` `Flask` `PyQt5` `asyncio` `pytest` `ruff`
+
+**AI** — `Claude API (tool use)` `Claude Code` `Gemini` `faster-whisper` `GigaAM` `prompt engineering` `LLM-агенты`
+
+**TypeScript** — `Next.js` `React` `Drizzle ORM` `Vitest` `three.js`
 
 **C# / .NET** — `ASP.NET Core 8` `WPF` `Entity Framework Core` `JWT`
 
-**Данные и интеграции** — `PostgreSQL` `SQLite` `MongoDB` `Google Sheets API` `REST API`
+**Данные и интеграции** — `PostgreSQL` `SQLite` `MongoDB` `Google Sheets API` `REST API` `банковские API`
 
-**Инфраструктура** — `Docker` `GitHub Actions` `Git`
+**Инфраструктура** — `Docker Compose` `Caddy` `Linux VPS` `GitHub Actions` `Git`
 
 ### Связаться
 
